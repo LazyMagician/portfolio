@@ -1,0 +1,241 @@
+html{
+        scroll-behavior: smooth;
+
+}
+.under{
+    text-decoration:underline;
+}
+.butn{
+    color: white;
+    padding: 3px 7px;
+     background-color:#002699 ;
+}
+.cons{
+    display: flex;
+    gap :30px;
+
+}
+footer{
+    background-color: #222;
+    color: white;
+}
+
+.about{
+    padding: 150px 20px 150px 70px;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.section-2{
+    padding: 30px 0px 30px;
+    background-color: #7377ff;
+    text-align: justify;
+    background-size: cover;
+    background-image: url(./assets/daf.jpg);
+}
+
+.section-3{
+    margin: 30px 0px 100px 8px;
+    background-size: cover;
+    background-image: url(./assets/back2.jpg);
+}
+
+.section-4{
+    margin: 30px 0px 30px 8px;
+}
+.gig1{
+    border: 2px solid black;
+    margin:2px 20px 18px 10px;
+    padding-top: 5px;
+    border-radius: 3%;
+}
+.gig2{
+    border: 2px solid black;
+    margin:2px 5px 18px 10px;
+    border-radius: 3%;
+    padding-top: 5px;
+}
+.navbar-expand-lg .navbar-collapse{
+    margin-left: 73%;
+}
+.navbar>.container-fluid{
+    margin-bottom: 7px;
+    display: flex;
+    gap: 30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    border-bottom: 2px solid white;
+
+}
+.profile{
+        padding-top: 8%;
+        padding-bottom: 10%;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode: lighten;
+        background-repeat: no-repeat;
+        background-image: url(./assets/back.webp)  ;
+        display: flex;
+}
+.bio > h1{
+    font-size: 4vw;
+    padding: 30px 20px 30px 25px;
+}
+.profile > img{
+    margin:10%;
+    height: 150px;
+}
+.bg-dark{
+    background-color: #002699!important;
+
+}
+.hire{
+    padding: 7px 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 7%;
+    color: white;
+    background-color:#ad0000;
+}
+.res{
+    padding: 7px 10px;
+    margin-left: 50px;
+    text-decoration: none;
+    border-radius: 7%;
+    color: white;
+    background-color:#002699;
+}
+
+.bio > a:active{
+    background-color:#7d2ae8;
+}
+.typing p {
+  padding-right:20px;
+  color: #e6f2ff;
+  padding-left: 50px;
+  border-right: .15em solid black;
+  font-family: "Courier";
+  font-size: 2vw;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.typing p:nth-child(1) {
+  width: 30em;
+  -webkit-animation: type 4s steps(40, end);
+  animation: type 4s steps(20, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.typing p:nth-child(2) {
+  width: 43em;
+  opacity: 0;
+  -webkit-animation: type2 4s steps(40, end);
+  animation: type2 4s steps(40, end);
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.typing p:nth-child(3) {
+  width: 45em;
+  opacity: 0;
+  -webkit-animation: type3 8s steps(40, end);
+  animation: type3 8s steps(40, end);
+  -webkit-animation-delay: 8s;
+  animation-delay: 8s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid black;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
